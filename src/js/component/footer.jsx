@@ -6,7 +6,7 @@ import "../../styles/footer.scss";
 
 const Footer = () => {
 	return (
-		<React.Fragment>
+		<>
 			<div className="m-0 w-100 footer-position">
 				<div className="row m-0">
 					<div className="col-xs-12 col-sm-12 col-md-3 bg-first">
@@ -57,7 +57,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

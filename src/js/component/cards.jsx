@@ -4,7 +4,7 @@ import "../../styles/cards.scss";
 
 const Cards = () => {
 	return (
-		<React.Fragment>
+		<>
 			<div className="bg-second">
 				<div className="row w-75 m-auto">
 					<div className="col bg-second center-content p-3">
@@ -129,7 +129,7 @@ const Cards = () => {
 					</div>
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 
